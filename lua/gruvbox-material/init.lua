@@ -15,7 +15,7 @@
 -- Author:                  Marko Cerovac <marko.cerovac16@gmail.com>
 -- Website:                 https://github.com/marko-cerovac/material.nvim
 
-local util = require('gruvbox_material.util')
+local util = require('gruvbox-material.util')
 
 -- Load the theme
 local set = function ()

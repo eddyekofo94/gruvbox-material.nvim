@@ -79,7 +79,7 @@ To enable the `material-nvim` theme for `Lualine`, simply specify it in your lua
 require('lualine').setup {
   options = {
     -- ... your lualine config
-    theme = 'gruvbox-material'
+    theme = 'gruvbox-material.nvim'
     -- ... your lualine config
   }
 }
