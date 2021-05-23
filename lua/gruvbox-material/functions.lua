@@ -7,7 +7,7 @@ end
  local change_style = function (style)
      vim.g.material_style = style
      print("Material style: ", style)
-     vim.cmd[[colorscheme material]]
+     vim.cmd[[colorscheme gruvbox-material.nvim]]
  end
 
 -- Toggle_style takes no parameters toggles the style on every function call
