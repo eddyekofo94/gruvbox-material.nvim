@@ -88,13 +88,13 @@ if vim.g.material_style == 'darker' then
 else
     material.bg = gruvbox_bg.bg0
     material.bg_alt = gruvbox_bg.bg1
-    material.fg = gruvbox_palette.fg0
-    material.text = gruvbox_palette.grey1
+    material.fg = gruvbox_palette.grey1
+    material.text = gruvbox_palette.fg0
     material.comments = gruvbox_bg.grey1
     material.selection = gruvbox_bg.bg
     material.contrast = gruvbox_bg.bg3
-    material.active = gruvbox_palette.grey0
-    material.border = gruvbox_palette.grey1
+    material.chursor_line_bg = gruvbox_bg.bg1
+    material.active = gruvbox_bg.bg2
     material.line_numbers = gruvbox_palette.grey0
     material.highlight = gruvbox_palette.grey2
     material.disabled = gruvbox_bg.bg3
