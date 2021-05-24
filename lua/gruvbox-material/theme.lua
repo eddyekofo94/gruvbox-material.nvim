@@ -437,7 +437,7 @@ theme.loadPlugins = function()
 
         -- Indent Blankline
         IndentBlanklineChar =                   { fg = material.disabled },
-        IndentBlanklineContextChar =            { fg = material.accent },
+        IndentBlanklineContextChar =            { fg = material.purple },
 
         -- Nvim dap
         DapBreakpoint =                         { fg = material.red },
