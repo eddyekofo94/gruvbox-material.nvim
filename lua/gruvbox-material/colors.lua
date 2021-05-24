@@ -2,7 +2,7 @@
 -- The original material if no setting is set
 local gruvbox_bg = {
     bg0 = "#282828",
-    bg1 = "#32302f",
+    bg1 = "#32302f", -- cursor color
     bg2 = "#32302f",
     bg3 = "#45403d",
     bg4 = "#45403d",
@@ -21,21 +21,21 @@ local gruvbox_bg = {
 }
 
 local gruvbox_palette = {
-    fg0 = "#654735",
-    fg1 = "#4f3829",
-    red = "#c14a4a",
-    orange = "#c35e0a",
-    yellow = "#b47109",
-    green = "#6c782e",
-    aqua = "#4c7a5d",
-    blue = "#45707a",
-    purple = "#945e80",
-    bg_red = "#ae5858",
-    bg_green = "#6f8352",
-    bg_yellow = "#a96b2c",
-    grey0 = '#a89984',
+    fg0 = "#d4be98",
+    fg1 = "#ddc7a1",
+    red = "#ea6962",
+    orange = "#e78a4e",
+    yellow = "#d8a657",
+    green = "#a9b665",
+    aqua = "#89b482",
+    blue = "#7daea3",
+    purple = "#d3869b",
+    bg_red = "#ea6962",
+    bg_green = "#a9b665",
+    bg_yellow = "#d8a657",
+    grey0 = '#7c6f64',
     grey1 = '#928374',
-    grey2 = '#7c6f64',
+    grey2 = '#a89984',
     white = "#f2e5bc",
     black = '#1d2021',
     none = 'NONE',
@@ -49,7 +49,8 @@ local material = {
     -- Common colors
 
     white = gruvbox_palette.white,
-    gray = gruvbox_palette.grey0,
+    gray = gruvbox_palette.fg1,
+    -- gray = "#a89984",
     black = gruvbox_palette.black,
     red = gruvbox_palette.red,
     green = gruvbox_palette.green,
@@ -88,17 +89,17 @@ if vim.g.material_style == 'darker' then
 else
     material.bg = gruvbox_bg.bg0
     material.bg_alt = gruvbox_bg.bg1
-    material.fg = gruvbox_palette.grey1
-    material.text = gruvbox_palette.fg0
-    material.comments = gruvbox_bg.grey1
-    material.selection = gruvbox_bg.bg
+    material.fg = gruvbox_palette.fg0
+    material.text = gruvbox_palette.fg1
+    material.comments = gruvbox_bg.bg5
+    material.selection = gruvbox_palette.bg3
     material.contrast = gruvbox_bg.bg3
-    material.chursor_line_bg = gruvbox_bg.bg1
+    material.chursor_line_bg = gruvbox_bg.bg0
     material.active = gruvbox_bg.bg2
     material.line_numbers = gruvbox_palette.grey0
     material.highlight = gruvbox_palette.grey2
     material.disabled = gruvbox_bg.bg3
-    material.accent = gruvbox_palette.orange
+    material.accent = gruvbox_palette.blue
 end
 
 -- Optional colors
