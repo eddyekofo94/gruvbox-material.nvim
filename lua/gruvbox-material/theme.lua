@@ -436,8 +436,8 @@ theme.loadPlugins = function()
         SneakScope =                            { bg = material.selection },
 
         -- Indent Blankline
-        IndentBlanklineChar =                   { fg = material.highlight },
-        IndentBlanklineContextChar =            { fg = material.disabled },
+        IndentBlanklineChar =                   { fg = material.disabled },
+        IndentBlanklineContextChar =            { fg = material.accent },
 
         -- Nvim dap
         DapBreakpoint =                         { fg = material.red },
