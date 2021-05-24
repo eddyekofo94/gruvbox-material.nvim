@@ -49,8 +49,7 @@ local material = {
     -- Common colors
 
     white = gruvbox_palette.white,
-    gray = gruvbox_palette.fg1,
-    -- gray = "#a89984",
+    gray = gruvbox_palette.fg0,
     black = gruvbox_palette.black,
     red = gruvbox_palette.red,
     green = gruvbox_palette.green,
@@ -93,13 +92,14 @@ else
     material.text = gruvbox_palette.fg1
     material.comments = gruvbox_bg.bg5
     material.selection = gruvbox_palette.bg3
-    material.contrast = gruvbox_bg.bg3
-    material.chursor_line_bg = gruvbox_bg.bg0
-    material.active = gruvbox_bg.bg2
+    material.contrast = gruvbox_bg.bg1
+    material.border = gruvbox_palette.white
+    material.cursor_line_bg = gruvbox_bg.bg2
+    material.active = gruvbox_bg.bg5
     material.line_numbers = gruvbox_palette.grey0
-    material.highlight = gruvbox_palette.grey2
+    material.highlight = gruvbox_bg.bg5
     material.disabled = gruvbox_bg.bg3
-    material.accent = gruvbox_palette.blue
+    material.accent = gruvbox_palette.aqua
 end
 
 -- Optional colors
