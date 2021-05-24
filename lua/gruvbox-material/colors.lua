@@ -98,8 +98,8 @@ else
     material.active = gruvbox_bg.bg5
     material.line_numbers = gruvbox_palette.grey0
     material.highlight = gruvbox_bg.bg5
-    material.disabled = gruvbox_bg.bg3
-    material.accent = gruvbox_palette.aqua
+    material.disabled = gruvbox_bg.bg5
+    material.accent = gruvbox_palette.aqua -- TODO: choose the best accent colour
 end
 
 -- Optional colors
