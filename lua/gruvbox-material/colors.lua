@@ -91,7 +91,7 @@ else
     material.fg = gruvbox_palette.fg0
     material.text = gruvbox_palette.fg1
     material.comments = gruvbox_bg.bg5
-    material.selection = gruvbox_palette.bg3
+    material.selection = gruvbox_bg.bg5
     material.contrast = gruvbox_bg.bg1
     material.border = gruvbox_palette.white
     material.cursor_line_bg = gruvbox_bg.bg2
